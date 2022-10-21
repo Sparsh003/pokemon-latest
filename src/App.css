@@ -1,0 +1,108 @@
+.pokemon-item {
+  box-shadow: 0px 0px 8px rgb(161, 159, 159);
+  border-radius: 8px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.img-fluid-1 {
+  width: 70% !important;
+  margin: auto;
+  padding: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+  font-weight: 500;
+}
+
+.link1 {
+  text-decoration: none;
+  color: black;
+}
+
+.link1:hover {
+  color: black;
+}
+
+.link:hover {
+  color: rgb(211, 207, 207);
+}
+
+.loading-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img-fluid-0 {
+  width: 50%;
+}
+
+.pagination {
+  justify-content: space-evenly;
+  margin: 0px;
+  padding: 5px;
+}
+
+.previous a {
+  color: white;
+  text-decoration: none;
+}
+
+.next a {
+  color: white;
+  text-decoration: none;
+}
+
+.pagination_link_active a {
+  background: rgb(49, 3, 173);
+  padding-left: 10px;
+  padding-right: 11px;
+  border-radius: 50%;
+  padding-top: 3px;
+  padding-bottom: 6px;
+}
+
+.pagination_link_disabled a {
+  display: none;
+}
+
+.pagination_link {
+  font-weight: bold;
+}
+
+.width {
+  width: 35px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 45%;
+  right: 25px;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 45%;
+  left: 25px;
+}
+
+.active {
+  background-color: #5858c3;
+}
+
+.relative{
+  position: relative;
+}
+
+
+@media(max-width:576px){
+  .pokemon-item{
+    width: 100%;
+  }
+
+}
