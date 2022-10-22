@@ -49,9 +49,8 @@ function MyPokemonList() {
           <Table responsive hover>
             <thead>
               <tr>
-                <th>S.no</th>
                 <th>Pokemon Image</th>
-                <th>Pokemon name</th>
+                <th>Pokemon Name</th>
                 <th>Nickname</th>
                 <th>Action</th>
               </tr>
@@ -59,7 +58,6 @@ function MyPokemonList() {
             <tbody>
               {localdata?.map((item, index) => (
                 <tr key={index}>
-                  <td>{index + 1}</td>
                   <td>
                     <img src={`${item.pokeimage}`} className="img-fluid" />
                   </td>
